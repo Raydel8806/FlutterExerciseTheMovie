@@ -69,7 +69,7 @@ class PopularMoviesEntity {
   factory PopularMoviesEntity.fromData(FavoriteMoviesData data) {
     final results = data.results
             ?.map((result) => PopularMovieEntity.fromResult(result))
-            ?.toList() ??
+            .toList() ??
         [];
 
     return PopularMoviesEntity(

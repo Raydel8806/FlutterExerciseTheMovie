@@ -1,6 +1,7 @@
 import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutterexercisethemovie/l10n/l10n.dart';
 
 import '../../../tools/injectable_setup.dart';
 import 'cubit/movie_detail_cubit.dart';
@@ -25,13 +26,14 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return BlocProvider(
       create: (_) => movieDetailCubit
         ..fetchDetailedMovieById(
             Localizations.localeOf(context).languageCode, widget.id),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Movie Detail Page'),
+          title: Text(l10n.moviesDetailWidgetPageTittle),
         ),
         body: MoviesDetailBodyWidget(
           id: widget.id,

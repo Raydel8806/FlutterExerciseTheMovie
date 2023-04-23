@@ -1,15 +1,35 @@
 {
-    "@@locale": "es",
-    "screenPopularsFilmsAppBarTitle": "Filmes Populares",
-    "@screenPopularsFilmsAppBarTitle                                                                                                                                                                                                                        ": {
-        "description": "Texto mostrado en la AppBar de la página principal"
-    },
-    "popularMovieLandscapeItemWidgetVotes": "votos",
-    "@popularMovieLandscapeItemWidgetVotes": {
-        "description": "Texto mostrado en la Tarjeta de Película Popular la página principal"
-    },
-    "popularMovieLandscapeItemWidgetReleaseDate": "Fecha de lanzamiento",
-    "@popularMovieLandscapeItemWidgetReleaseDate": {
-        "description": "Texto mostrado en la Tarjeta de Película Popular la página principal"
-    }
+  "@@locale": "es",
+  "screenPopularsFilmsAppBarTitle": "Filmes Populares",
+  "@screenPopularsFilmsAppBarTitle                                                                                                                                                                                                                        ": {
+    "description": "Texto mostrado en la AppBar de la página principal"
+  },
+  "popularMovieLandscapeItemWidgetVotes": "votos",
+  "@popularMovieLandscapeItemWidgetVotes": {
+    "description": "Texto mostrado en la Tarjeta de Película Popular la página principal"
+  },
+  "popularMovieLandscapeItemWidgetReleaseDate": "Fecha de lanzamiento",
+  "@popularMovieLandscapeItemWidgetReleaseDate": {
+    "description": "Texto mostrado en la Tarjeta de Película Popular la página principal"
+  },
+  "moviesDetailBodyWidgetOverview": "Descripción general",
+  "@moviesDetailBodyWidgetOverview": {
+    "description": "Texto mostrado en la Tarjeta Detalles de Película."
+  },
+  "moviesDetailBodyWidgetGenders": "Géneros",
+  "@moviesDetailBodyWidgetGenders": {
+    "description": "Texto mostrado en la Tarjeta Detalles de Película."
+  },
+  "moviesDetailWidgetPageTittle": "Detalles de la película",
+  "@moviesDetailWidgetPageTittle": {
+    "description": "Texto mostrado en la Tarjeta Detalles de Película."
+  },
+  "moviesDetailWidgetPageProductionCompanies": "Compañías de producción",
+  "@moviesDetailWidgetPageProductionCompanies": {
+    "description": "Texto mostrado en la Tarjeta Detalles de Película."
+  },
+  "moviesDetailWidgetPageBelongsToCollection": "Colección a que pertenece",
+  "@moviesDetailWidgetPageBelongsToCollection": {
+    "description": "Texto mostrado en la Tarjeta Detalles de Película."
+  }
 }

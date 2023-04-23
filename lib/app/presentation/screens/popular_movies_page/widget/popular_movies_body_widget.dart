@@ -79,80 +79,8 @@ class _PopularMoviesBodyWidgetState extends State<PopularMoviesBodyWidget> {
               }
             }),
           itemBuilder: (context, index) {
-            //final movie = popularMoviesEntity[index];
             return PopularMovieLandscapeItemWidget(popularMoviesEntity[index]);
-            /* GestureDetector(
-                onTap: () {
-                  context.router.push(
-                      MovieDetailRoute(id: popularMoviesEntity[index].id));
-                },
-                child: Card(
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Expanded(
-                        flex: 2,
-                        child: Image.network(
-                          '${dotenv.env['BASE_URL_IMAGES']!}${dotenv.env['IMAGE_SIZE_LOW_EXTREME']!}${movie.posterPath}',
-                        ),
-                      ),
-                      Expanded(
-                        flex: 5,
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                movie.title,
-                                style: const TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18.0,
-                                ),
-                              ),
-                              const SizedBox(height: 10.0),
-                              Text(
-                                movie.overview,
-                                maxLines: 4,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              const SizedBox(height: 10.0),
-                              Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.star,
-                                    color: Colors.yellow,
-                                  ),
-                                  const SizedBox(width: 5.0),
-                                  Text(
-                                      '${movie.voteAverage}  (${movie.voteCount} '
-                                      'votos)'),
-                                ],
-                              ),
-                              const SizedBox(height: 10.0),
-                              Text(
-                                'Fecha de lanzamiento: ${movie.releaseDate}',
-                              ),
-                              const SizedBox(height: 10.0),
-                              Text(
-                                'Géneros: ${movie.genreIds.join(', ')}',
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ));*/
           },
-          /*itemBuilder: (context, index) => GestureDetector(
-              onTap: () {
-                context.router
-                    .push(MovieDetailRoute(id: popularMoviesEntity[index].id));
-              },
-              // child: MovieItemWidget(popularMoviesEntity[index])),
-              child: SizedBox(
-                  height: 50, child: Text(popularMoviesEntity[index].title))),*/
           separatorBuilder: (context, index) => const SizedBox(height: 20),
           itemCount: popularMoviesEntity.length,
         );
