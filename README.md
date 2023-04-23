@@ -42,8 +42,6 @@ $ flutter run --flavor staging --target lib/main_staging.dart
 $ flutter run --flavor production --target lib/main_production.dart
 ```
 
-_\*Flutterexercisethemovie works on iOS, Android, Web, and Windows._
-
 ---
 ## Screenshots
 <img width="260" alt="Screenshot_20230423_183333" src="https://user-images.githubusercontent.com/81862291/233869828-05788112-dcdc-4279-9e75-526ed2003c9b.png"> 
