@@ -45,6 +45,10 @@ $ flutter run --flavor production --target lib/main_production.dart
 _\*Flutterexercisethemovie works on iOS, Android, Web, and Windows._
 
 ---
+## Screenshots
+<img width="260" alt="Screenshot_20230423_183333" src="https://user-images.githubusercontent.com/81862291/233869828-05788112-dcdc-4279-9e75-526ed2003c9b.png">
+<img width="260" alt="Screenshot_20230423_183246" src="https://user-images.githubusercontent.com/81862291/233869838-fcf33b0d-1f06-4901-b1a6-fcc51b7fd48f.png">
+
 
 ## Conclusion
 This application provides a simple way for users to view popular movies and their details. The use of functional programming with dependency injection and BLoC makes the code easier to understand and maintain.
