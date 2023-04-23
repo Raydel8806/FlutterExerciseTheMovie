@@ -7,6 +7,5 @@ import 'app/tools/injectable_setup.dart';
 Future<void> main() async {
   await dotenv.load(fileName: "assets/.env");
   configureInjection();
-
   bootstrap(() => App());
 }

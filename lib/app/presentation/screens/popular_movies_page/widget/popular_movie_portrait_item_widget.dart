@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../domain/entities/popular_movies/popular_movies_entity.dart';
+import '../../../widget/loading_widget.dart';
 
 class MovieItemWidget2 extends StatelessWidget {
   final PopularMovieEntity popularMovieEntity;

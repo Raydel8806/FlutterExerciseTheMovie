@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutterexercisethemovie/app/presentation/screens/popular_movies_page/cubit/popular_movies_cubit.dart';
 import 'package:flutterexercisethemovie/app/presentation/screens/popular_movies_page/widget/popular_movies_body_widget.dart';
+import 'package:flutterexercisethemovie/l10n/l10n.dart';
 
 import '../../../domain/entities/popular_movies/popular_movies_entity.dart';
 import '../../../tools/injectable_setup.dart';
@@ -38,12 +39,13 @@ class _PopularMoviesScreenState extends State<PopularMoviesScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return BlocProvider(
       create: (_) => popularMoviesCubit
         ..fetchPopularMovies(Localizations.localeOf(context).languageCode),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Fav Movies'),
+          title: Text(l10n.screenPopularsFilmsAppBarTitle),
         ),
         body: PopularMoviesBodyWidget(),
       ),

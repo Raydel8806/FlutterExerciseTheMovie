@@ -1,7 +1,15 @@
 {
     "@@locale": "es",
-    "counterAppBarTitle": "Contador",
-    "@counterAppBarTitle": {
-        "description": "Texto mostrado en la AppBar de la página del contador"
+    "screenPopularsFilmsAppBarTitle": "Filmes Populares",
+    "@screenPopularsFilmsAppBarTitle                                                                                                                                                                                                                        ": {
+        "description": "Texto mostrado en la AppBar de la página principal"
+    },
+    "popularMovieLandscapeItemWidgetVotes": "votos",
+    "@popularMovieLandscapeItemWidgetVotes": {
+        "description": "Texto mostrado en la Tarjeta de Película Popular la página principal"
+    },
+    "popularMovieLandscapeItemWidgetReleaseDate": "Fecha de lanzamiento",
+    "@popularMovieLandscapeItemWidgetReleaseDate": {
+        "description": "Texto mostrado en la Tarjeta de Película Popular la página principal"
     }
 }

@@ -1,7 +1,15 @@
 {
     "@@locale": "en",
-    "counterAppBarTitle": "Counter",
-    "@counterAppBarTitle": {
-        "description": "Text shown in the AppBar of the Counter Page"
+    "screenPopularsFilmsAppBarTitle": "Populars Films",
+    "@screenPopularsFilmsAppBarTitle ": {
+        "description": "Text displayed in the AppBar of the main page"
+    },
+    "popularMovieLandscapeItemWidgetVotes": "votes",
+    "@popularMovieLandscapeItemWidgetVotes": {
+        "description": "Text displayed on the Popular Movie Card home page"
+    },
+    "popularMovieLandscapeItemWidgetReleaseDate": "Release Date",
+    "@popularMovieLandscapeItemWidgetReleaseDate": {
+        "description": "Text displayed on the Popular Movie Card home page"
     }
 }
