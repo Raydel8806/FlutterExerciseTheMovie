@@ -1,0 +1,4 @@
+scripts:
+  build-and-run-production:
+    script:
+      - flutter run --flavor production --target lib/main_production.dart
